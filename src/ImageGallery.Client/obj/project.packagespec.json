@@ -1,0 +1,92 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Client/ImageGallery.Client.csproj",
+    "projectName": "ImageGallery.Client",
+    "projectPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Client/ImageGallery.Client.csproj",
+    "outputPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Client/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {
+          "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj": {
+            "projectPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "BundlerMinifier.Core": {
+          "target": "Package",
+          "version": "2.3.327"
+        },
+        "Microsoft.AspNetCore.Diagnostics": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "1.1.2"
+        },
+        "Microsoft.AspNetCore.Routing": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Server.IISIntegration": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Logging": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Logging.Console": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Logging.Debug": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Options.ConfigurationExtensions": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.VisualStudio.Web.BrowserLink": {
+          "target": "Package",
+          "version": "1.1.0"
+        }
+      },
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

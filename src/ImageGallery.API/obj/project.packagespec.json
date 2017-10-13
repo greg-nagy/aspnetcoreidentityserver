@@ -1,0 +1,84 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.API/ImageGallery.API.csproj",
+    "projectName": "ImageGallery.API",
+    "projectPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.API/ImageGallery.API.csproj",
+    "outputPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.API/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp1.1"
+    ],
+    "frameworks": {
+      "netcoreapp1.1": {
+        "projectReferences": {
+          "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj": {
+            "projectPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj"
+          }
+        }
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Diagnostics": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Server.IISIntegration": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Server.Kestrel": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Logging.Console": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Configuration.FileExtensions": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.Extensions.Configuration.Json": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "1.0.0"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "1.1.1"
+        },
+        "Microsoft.AspNetCore.Mvc": {
+          "target": "Package",
+          "version": "1.1.2"
+        },
+        "AutoMapper": {
+          "target": "Package",
+          "version": "5.2.0"
+        },
+        "Microsoft.AspNetCore.StaticFiles": {
+          "target": "Package",
+          "version": "1.1.1"
+        }
+      },
+      "imports": [
+        "dotnet5.6",
+        "portable-net45+win8"
+      ]
+    }
+  }
+}

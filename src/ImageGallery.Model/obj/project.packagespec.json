@@ -1,0 +1,35 @@
+﻿{
+  "version": "1.1.0",
+  "restore": {
+    "projectUniqueName": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj",
+    "projectName": "ImageGallery.Model",
+    "projectPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/ImageGallery.Model.csproj",
+    "outputPath": "/Users/puffancs/dotnet/asp-dotnet-core-oauth2-openid-connect-securing/02/start-end/src/ImageGallery.Model/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netstandard1.6"
+    ],
+    "frameworks": {
+      "netstandard1.6": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "target": "Package",
+          "version": "1.6.0"
+        },
+        "System.ComponentModel.Annotations": {
+          "target": "Package",
+          "version": "4.3.0"
+        }
+      },
+      "imports": [
+        "dnxcore50"
+      ]
+    }
+  }
+}
